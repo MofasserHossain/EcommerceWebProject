@@ -114,6 +114,7 @@ header .menu .menu-link{
     padding: 12px;
     border-radius: 20px;
     border: none;
+    background-color: #fff;
 }
 .crd .crd-body{
     padding: 0;
