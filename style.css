@@ -194,7 +194,7 @@ section.contact-form{
 }
 .contact-form .section-title{
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 .contact-form{
     width: 80%;
@@ -226,6 +226,7 @@ section.contact-form{
 
 footer {
     text-align: center;
+    padding: 30px;
 }
 footer a{
     color: #A4BC46;
