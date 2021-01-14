@@ -11,6 +11,12 @@
         max-width: 300px;
         font-size: 15px;
     }
+    .crd .crd-body h1{
+        font-size: 22px;
+    }
+    .crd .crd-body p{
+        font-size: 14px;
+    }
     .buy-now{
         padding: 8px 20px;
     }
