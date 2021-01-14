@@ -41,6 +41,9 @@
     .crd .crd-footer .buy-now{
         font-size: 13px;
     }
+    .contact-form{
+        width: 90%;
+    }
 }
 @media (max-width: 768px){
     body{
@@ -94,6 +97,9 @@
     .last-sec-inner .img{
         margin: 0 auto;
     }
+    .contact-form{
+        width: 95%;
+    }
 }
 @media (max-width: 576px){
     header{
@@ -104,5 +110,8 @@
     }
     .banner .img{
         width: 300px;
+    }
+    footer  p{
+        font-size: 13px;
     }
 }
