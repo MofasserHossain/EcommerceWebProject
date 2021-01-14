@@ -103,6 +103,9 @@
     .last-sec-inner .img{
         margin: 0 auto;
     }
+    .last-section-item .content h1{
+        padding: 10px 0 5px;
+    }
     .contact-form{
         width: 95%;
     }
