@@ -1,0 +1,108 @@
+/* .responsive design */
+
+@media (max-width: 1200px){
+    .banner .img{
+        width: 350px;
+    }
+    .banner .content h1{
+        font-size: 40px;
+    }
+    .banner .content p{
+        max-width: 300px;
+        font-size: 15px;
+    }
+    .buy-now{
+        padding: 8px 20px;
+    }
+}
+@media (max-width: 992px){
+    .banner .img{
+        width: 300px;
+    }
+    header .menu .menu-link{
+        font-size: 15px;
+    }
+    .crd .img{
+        padding: 30px 10px;
+    }
+    .crd .img img{
+        width: 150px;
+        height: 200px;
+    }
+    .crd .crd-body h1{
+        font-size: 20px;
+    }
+    .crd .crd-body p{
+        font-size: 13px;
+    }
+    .crd .crd-footer span{
+        font-size: 20px;
+    }
+    .crd .crd-footer .buy-now{
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px){
+    body{
+        margin-top: 60px;
+    }
+    header{
+        padding: 30px 0 80px;
+    }
+    header .logo{
+        width: 250px;
+    }
+    .menu-list{
+        margin-top: 20px;
+    }
+    .banne .content{
+        margin-top: 20px;
+    }
+    .banner .img{
+        width: 350px;
+        margin-top: 30px;
+    }
+    .section-title{
+        padding-top: 35px;
+        text-align: center;
+    }
+    .section-title h1{
+        font-size: 30px;
+    }
+    .card-section{
+        padding: 30px 0 40px;
+    }
+    .crd{
+        margin-bottom: 20px;
+    }
+    .banner .content{   
+        margin-left: 30px;
+    }
+    .banner .content h1{
+        font-size: 35px;
+    }
+    .crd .img img{
+        width: 180px;
+        height: 230px;
+    }
+
+    .last-sec-inner{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center !important;
+    }
+    .last-sec-inner .img{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 576px){
+    header{
+        padding: 20px 0 50px;
+    }
+    header .logo{
+        width: 200px;
+    }
+    .banner .img{
+        width: 300px;
+    }
+}

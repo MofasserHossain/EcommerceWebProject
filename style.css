@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+a:hover{
+    color: #fff;
+}
+.buy-now{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: #A4BC46;
+    color: #fff;
+}
+.buy-now i{
+    padding-right: 3px;
+}
+.buy-now:hover{
+    color: #fff;
+}
+section{
+    background-color: #f1f1f1;
+}
+section::before,
+header::before{
+    content: '';
+    clear: both;
+}
+
+/* .header */
+
+header{
+    background-color: #FFFBF0;
+    padding: 50px 0 120px;
+}
+header .menu{
+    padding: 25px 0;
+    background-color: #FFFBF0 ;
+    box-shadow: 0 0 10px #ddd;
+}
+header .logo{
+    width: 350px;
+}
+header button img{
+ width: 30px;
+}
+header .menu .navbar-toggler{
+    border-color: transparent;
+}
+header .menu .navbar-toggler:focus{
+    box-shadow: none;
+}
+header .menu .menu-items{
+    padding: 0 10px;
+}
+header .menu .menu-link{
+    font-weight: 600;
+    font-size: 18px;
+}
+.banner .content{   
+    margin-top: 70px;
+}
+.banner .content h1{
+    color: #FABE4C;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+.banner .content span{
+    color: #363958;
+}
+.banner .content p{
+    max-width: 400px;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+
+.banner .img{
+    width: 450px;
+    margin-left: 50px;
+}
+
+/* header .navbar-collapse{
+    justify-content: flex-end;
+} */
+
+
+/* .women suit section */
+
+.section-title{
+    padding-top: 50px;
+}
+.section-title h1{
+    font-size: 40px;
+    color: #363958;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card-section{
+    padding: 50px 0 80px;
+}
+.crd{
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+}
+.crd .crd-body{
+    padding: 0;
+    margin-top: 10px;
+}
+.crd .img{
+    padding: 50px 20px;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+}
+.crd .img img{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.crd .crd-body h1{
+    font-size: 25px;
+    color: #363958;
+    font-weight: 600;
+}
+.crd .crd-body p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.crd .crd-footer{
+    border: none;
+    background-color: transparent;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.crd .crd-footer span{
+    color: #FABE4C;
+    font-size: 30px;
+    font-weight: bold;
+}
+.crd .crd-footer .buy-now{
+    font-size: 15px;
+}
+
+
+/* . last section */
+
+.last-section{
+    padding: 50px 0;
+}
+.last-section-item {
+    padding-top: 4px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px 0 10px;
+}
+.last-section-item .img{
+    width: 70px;
+    height: 70px;
+}
+.last-section-item .content{
+    margin-left: 15px;
+}
+.last-section-item .content h1{
+    font-size: 23px;
+    font-weight: 600;
+    color: #363958;
+}
+.last-section-item .content p{
+    font-size: 14px;
+}
+.content-img{
+    margin: 50px 10px 0 0;
+    padding: 10px;
+}
+
+/* .contact form */
+section.contact-form{
+    background-color: #fff;
+}
+.contact-form .section-title{
+    text-align: center;
+    padding: 30px;
+}
+.contact-form{
+    width: 80%;
+    margin: 0 auto;
+    padding:50px  20px;
+}
+.contact-form form{
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ddd;
+}
+.contact-form input{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form .sent-btn{
+    background-color: #A4BC46;
+    color: #fff;
+    margin-top: 30px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    box-shadow: none;
+    outline: 0;
+    border-color: #ced4da;
+}
+
+
+
